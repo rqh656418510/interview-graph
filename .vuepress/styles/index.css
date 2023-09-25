@@ -1,0 +1,139 @@
+/* 搜索框 */
+.search-box input {
+    padding-left: 35px !important;
+}
+
+/* 搜索框 */
+@media screen and (min-width: 1221px) {
+  .search-box input {
+    width: 180px;
+  }
+}
+
+/* 首页文案 */
+@media screen and (max-width: 1221px) {
+  .banner-wrapper .banner-brand__content h1 {
+    display: none;
+  }
+}
+
+/* 首页 Logo 图片 */
+.banner-wrapper .banner-brand__content img {
+  display: block;
+  border-radius: 50%;
+  margin: '0 auto 0';
+  width: 250px !important;
+}
+
+/* 导航栏 Logo 图片 */
+.navbar-container .nav-item .logo {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/* 左侧边栏（系列） */
+.series-container {
+  width: 19rem !important;
+}
+
+/* 左侧边栏（系列）的 Logo 图片 */
+.series-container .site-brand img {
+  border-radius: 50% !important;
+}
+
+/* 代码块正文 */
+.token.punctuation {
+  color: #bb9712 !important;
+}
+
+/* 代码块正文 */
+div[class*="language-"] code {
+  color: white !important;
+}
+
+/* 代码块正文 */
+div[class*="language-"] pre[class*="language-"] {
+  padding-left: 4.5rem !important;
+  border-color: #3E4C5A !important;
+}
+
+/* 代码块行号 */
+div[class*="language-"].line-numbers-mode .line-numbers {
+  background-color: #363b45 !important;
+}
+
+/* 代码块整体 */
+div[class*="language-"] {
+  background-color: #363b45 !important;
+  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+}
+
+/* 文章目录 */
+.page-catalog-container {
+  /* 目录宽度 */
+  min-width: 16rem;
+  /* 溢出隐藏 */
+  overflow: hidden;
+  /* 单行显示 */
+  white-space: nowrap;
+  /* 右侧外边距 */
+  margin-right: 1.5rem;
+}
+
+/* 二级文章目录 */
+.page-catalog-menu-depth_2 {
+  font-size: 0.875rem !important;
+}
+
+/* 三级文章目录 */
+.page-catalog-menu-depth_3 {
+  margin-left: 1rem;
+  font-size: 0.875rem !important;
+}
+
+/* 公告栏 */
+.bulletin-wrapper {
+  top: unset;
+  bottom: 1rem;
+}
+
+/* 隐藏公告栏 */
+@media screen and (max-width: 1221px) {
+  .bulletin-wrapper {
+    display: none;
+  }
+}
+
+/* 公告栏标题 */
+.bulletin-title .icon-container .icon-text {
+  margin-top: 0.2rem;
+}
+
+/* 自定义容器 */
+.custom-container p {
+  margin-top: 0px;
+  margin-bottom: 0.875rem;
+}
+
+/* 提示框图标 */
+.custom-container.tip svg {
+  color: #42b983 !important;
+}
+
+/* 提示框标题 */
+.custom-container.tip .custom-container-title {
+  color: #42b983 !important;
+}
+
+/* 提示框背景 */
+.custom-container.tip {
+  border-color: #42b983 !important;
+  background-color: rgba(66, 185, 131, .1) !important;
+}
+
+/* 块引用的背景 */
+blockquote {
+  background-color: #edf8f6 !important;
+}
