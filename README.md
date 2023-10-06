@@ -4,7 +4,7 @@ modules:
   - Banner
   - CustomFooter
 banner:
-  heroText: '你所浪费的今天, 是昨日死去之人苦苦奢求的明天.'
+  heroText: 'Get busy living, or get busy dying.'
   tagline: ''
   heroImage: /logo.png
   bgImage: '/bg.svg'
