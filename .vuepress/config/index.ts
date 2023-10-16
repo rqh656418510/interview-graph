@@ -12,7 +12,7 @@ export const themeConfig = {
   },
   author: 'Clay',
   logo: '/logo.png',
-  docsRepo: 'https://github.com/rqh656418510/knowledge-graph',
+  docsRepo: 'https://github.com/rqh656418510/interview-graph',
   docsBranch: 'main',
   docsDir: '/',
   catalogTitle: '文章目录',

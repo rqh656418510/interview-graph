@@ -7,12 +7,12 @@ import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 export default defineUserConfig({
 
   // 基础配置
-  base: '/graph/',
+  base: '/interview/',
   debug: false,
   port: 8080,
   head: [
-    ['meta', { name: 'application-name', content: 'Clay 的知识图谱' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的知识图谱' }],
+    ['meta', { name: 'application-name', content: 'Clay 的面试图谱' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的面试图谱' }],
     ['link', { rel: 'icon', href: 'favicon.ico' }]
   ],
 
@@ -20,8 +20,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Clay 的知识图谱',
-      description: 'Clay 的知识图谱。',
+      title: 'Clay 的面试图谱',
+      description: 'Clay 的面试图谱。',
     }
   },
 
