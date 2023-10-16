@@ -1,41 +1,91 @@
 export const series = {
+  '/docs/interview/algorithm/': [
+    {
+      text: '算法面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/cache/redis/': [
+    {
+      text: 'Redis 面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/java/jdk/': [
+    {
+      text: '核心面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
   '/docs/interview/java/jvm/': [
     {
-      text: 'JVM 初级面试题',
+      text: 'JVM 面试题',
       children: [
-        'chapter-01'
+        'chapter-01',
+        'chapter-02',
       ]
-    },
+    }
+  ],
+  '/docs/interview/java/collection/': [
     {
-      text: 'JVM 中级面试题',
+      text: '集合类面试题',
       children: [
-        'chapter-02'
+        'chapter-01',
+        'chapter-02',
       ]
-    },
+    }
+  ],
+  '/docs/interview/java/thread/': [
     {
-      text: 'JVM 高级面试题',
+      text: '并发编程面试题',
       children: [
-        'chapter-03'
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/java/springboot/': [
+    {
+      text: 'Spring Boot 面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/java/springcloud/': [
+    {
+      text: 'Spring Cloud 面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
       ]
     }
   ],
   '/docs/interview/database/mysql/': [
     {
-      text: 'MySQL 初级面试题',
+      text: 'MySQL 面试题',
       children: [
-        'chapter-01'
+        'chapter-01',
+        'chapter-02',
       ]
-    },
+    }
+  ],
+  '/docs/interview/database/oracle/': [
     {
-      text: 'MySQL 中级面试题',
+      text: 'Oracle 面试题',
       children: [
-        'chapter-02'
-      ]
-    },
-    {
-      text: 'MySQL 高级面试题',
-      children: [
-        'chapter-03'
+        'chapter-01',
+        'chapter-02',
       ]
     }
   ]
