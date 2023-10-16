@@ -5,6 +5,8 @@ description: 第 1 部分
 
 ## 自增变量
 
+### 面试案例一
+
 > 案例代码
 
 ``` java
@@ -30,7 +32,7 @@ public class Test {
 - xload_n 虚拟机指令：表示将第 n 个局部变量压入操作数栈，比如 iload_1、fload_0、aload_0 等指令，其中 aload_n 表示将一个对象引用压栈
 - iinc 虚拟机指令：对给定的局部变量做自增操作，这条指令是少数几个执行过程中完全不修改操作数栈的指令；它接收两个操作数：第 1 个局部变量表的位置，第 2 个位累加数。比如常见的 i++ 就会产生这条指令
 
-> 问题分析
+> 分析结果
 
 下面将使用 `javap` 工具来分析问题，`javap` 是 JDK 自带的反汇编器，可以查看 Java 编译器生成的字节码。通过它，可以对照源代码和字节码，从而更了解编译器内部的工作过程。执行以下命令：
 
@@ -74,3 +76,44 @@ public class Test {
 - 10: istore_2 从操作数栈的栈顶弹出一个数（即 66）赋给第二个局部变量（varNum），意味局部变量 varNum 的值又变回 66
 - 11: iload_2 将第二个局部变量（varNum）的值入栈，此时操作数栈的栈顶值为 66
 - 最终打印结果就是：66
+
+
+### 面试案例二
+
+> 案例代码
+
+``` java
+public class Test {
+
+    public static void main(String[] args) {
+        int i = 1;
+        i = i++;
+        int j = i++;
+        int k = i + ++i * i++;
+        System.out.println("i=" + i);
+        System.out.println("j=" + j);
+        System.out.println("k=" + k);
+    }
+
+}
+```
+
+> 分析结果
+
+``` java
+public class Test {
+
+    public static void main(String[] args) {
+        int i = 1;
+        i = i++; // i=1
+        int j = i++; // j=1, i=2
+        int k = i + ++i * i++; // k= 2 + 3 * 3 = 11, i=4
+        System.out.println("i=" + i); // 4
+        System.out.println("j=" + j); // 1
+        System.out.println("k=" + k); // 11
+    }
+
+    // 运行结果： 4 1 11
+
+}
+```
