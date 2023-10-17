@@ -8,9 +8,9 @@ export const series = {
       ]
     }
   ],
-  '/docs/interview/cache/redis/': [
+  '/docs/interview/design-patterns/': [
     {
-      text: 'Redis 面试题',
+      text: '设计模式面试题',
       children: [
         'chapter-01',
         'chapter-02',
@@ -65,6 +65,15 @@ export const series = {
   '/docs/interview/java/springcloud/': [
     {
       text: 'Spring Cloud 面试题',
+      children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/cache/redis/': [
+    {
+      text: 'Redis 面试题',
       children: [
         'chapter-01',
         'chapter-02',

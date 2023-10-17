@@ -6,9 +6,9 @@ export const navbar = [
     ]
   },
   {
-    text: '缓存面试',
+    text: '设计模式面试',
     children: [
-      { text: 'Redis 面试题', link: '/docs/interview/cache/redis/' }
+      { text: '设计模式面试题', link: '/docs/interview/design-patterns/' },
     ]
   },
   {
@@ -20,6 +20,12 @@ export const navbar = [
       { text: '并发编程面试题', link: '/docs/interview/java/thread/' },
       { text: 'Spring Boot 面试题', link: '/docs/interview/java/springboot/' },
       { text: 'Spring Cloud 面试题', link: '/docs/interview/java/springcloud/' }
+    ]
+  },
+  {
+    text: '缓存面试',
+    children: [
+      { text: 'Redis 面试题', link: '/docs/interview/cache/redis/' }
     ]
   },
   {
