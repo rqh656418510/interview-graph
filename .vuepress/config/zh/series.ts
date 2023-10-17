@@ -106,7 +106,7 @@ export const series = {
   ],
   '/docs/interview/queue/kafka/': [
     {
-      text: 'kafka 面试题',
+      text: 'Kafka 面试题',
       children: [
         'chapter-01'
       ]
@@ -114,7 +114,23 @@ export const series = {
   ],
   '/docs/interview/queue/rabbitmq/': [
     {
-      text: 'kafka 面试题',
+      text: 'RabbitMQ 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/orm/mybatis/': [
+    {
+      text: 'MyBatis 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/orm/hibernate/': [
+    {
+      text: 'Hibernate 面试题',
       children: [
         'chapter-01'
       ]

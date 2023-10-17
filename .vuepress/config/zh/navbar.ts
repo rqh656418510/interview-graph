@@ -50,6 +50,13 @@ export const navbar = [
     ]
   },
   {
+    text: 'ORM',
+    children: [
+      { text: 'MyBatis 面试题', link: '/docs/interview/orm/mybatis/' },
+      { text: 'Hibernate 面试题', link: '/docs/interview/orm/hibernate/' }
+    ]
+  },
+  {
     text: 'GitHub',
     icon: 'GitHub',
     link: 'https://github.com/rqh656418510/interview-graph'
