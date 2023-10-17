@@ -37,6 +37,19 @@ export const navbar = [
     ]
   },
   {
+    text: '搜索引擎',
+    children: [
+      { text: 'ElasticSearch 面试题', link: '/docs/interview/search-engine/elasticsearch/' }
+    ]
+  },
+  {
+    text: '消息队列',
+    children: [
+      { text: 'Kafka 面试题', link: '/docs/interview/queue/kafka/' },
+      { text: 'RabbitMQ 面试题', link: '/docs/interview/queue/rabbitmq/' }
+    ]
+  },
+  {
     text: 'GitHub',
     icon: 'GitHub',
     link: 'https://github.com/rqh656418510/interview-graph'
