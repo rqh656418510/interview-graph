@@ -3,8 +3,7 @@ export const series = {
     {
       text: '算法面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -12,8 +11,7 @@ export const series = {
     {
       text: '设计模式面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -21,8 +19,7 @@ export const series = {
     {
       text: '核心面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -30,8 +27,7 @@ export const series = {
     {
       text: 'JVM 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -39,8 +35,7 @@ export const series = {
     {
       text: '集合类面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -48,8 +43,7 @@ export const series = {
     {
       text: '并发编程面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -57,8 +51,7 @@ export const series = {
     {
       text: 'Spring Boot 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -66,8 +59,7 @@ export const series = {
     {
       text: 'Spring Cloud 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -75,8 +67,7 @@ export const series = {
     {
       text: 'Redis 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -84,8 +75,7 @@ export const series = {
     {
       text: 'MySQL 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ],
@@ -93,8 +83,7 @@ export const series = {
     {
       text: 'Oracle 面试题',
       children: [
-        'chapter-01',
-        'chapter-02',
+        'chapter-01'
       ]
     }
   ]
