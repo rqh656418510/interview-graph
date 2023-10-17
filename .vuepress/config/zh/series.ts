@@ -41,7 +41,15 @@ export const series = {
   ],
   '/docs/interview/java/thread/': [
     {
-      text: '并发编程面试题',
+      text: '多线程面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/java/spring/': [
+    {
+      text: 'Spring 面试题',
       children: [
         'chapter-01'
       ]
