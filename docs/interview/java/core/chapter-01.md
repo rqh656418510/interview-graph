@@ -264,7 +264,7 @@ my.a = 11
 > 案例代码
 
 ``` java
-public class Example {
+public class VariableDemo {
 
 	static int s;
 	int i;
@@ -309,7 +309,6 @@ public class Example {
 
 > 知识点
 
-- 就近原则
 - 变量的分类
 	- 局部变量
 	- 成员变量：包括类变量、实例变量
@@ -341,3 +340,4 @@ public class Example {
   - 局部变量与类变量重名：在类变量前加 `类名.`
   - 局部变量与实例变量重名：在实例变量前加 `this.`
 - 非静态代码块的执行：每次创建实例对象时都会执行
+- 就近原则
