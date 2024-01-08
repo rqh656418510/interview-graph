@@ -247,7 +247,7 @@ my.a = 11
 
 > 分析过程
 
-![](../../../../assets/2023/10/18/java-core-1.png)
+![](../../../../assets/2023/10/java-core-1.png)
 
 > 知识点
 
@@ -305,7 +305,7 @@ public class VariableDemo {
 
 > 分析过程
 
-![](../../../../assets/2023/10/18/java-core-2.png)
+![](../../../../assets/2023/10/java-core-2.png)
 
 > 知识点
 

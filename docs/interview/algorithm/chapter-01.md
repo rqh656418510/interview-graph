@@ -11,7 +11,7 @@ description: 第 1 部分
 
 > 分析过程
 
-![](../../../assets/2023/10/18/algorithm-1.png)
+![](../../../assets/2023/10/algorithm-1.png)
 
 > 案例代码
 
@@ -43,7 +43,7 @@ public class ClimbStairsDemo {
 
 > 分析过程
 
-![](../../../assets/2023/10/18/algorithm-2.png)
+![](../../../assets/2023/10/algorithm-2.png)
 
 > 案例代码
 
