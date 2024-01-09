@@ -73,7 +73,7 @@ div[class*="language-"] {
 /* 文章目录 */
 .page-catalog-container {
   /* 目录宽度 */
-  min-width: 16rem;
+  min-width: 23rem;
   /* 溢出隐藏 */
   overflow: hidden;
   /* 单行显示 */

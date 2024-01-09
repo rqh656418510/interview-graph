@@ -5,7 +5,7 @@ description: 第 1 部分
 
 ## Spring MVC 的工作流程
 
-### 工作原理
+### 工作流程
 
 ![](../../../../assets/2024/01/spring-mvc-1.png)
 
@@ -17,7 +17,7 @@ description: 第 1 部分
 - ViewResolver：视图解析器，将 ModelAndView 逻辑视图解析为具体的视图（如 JSP 页面）
 - Handler：后端处理器，对用户具体请求进行处理，也就是 Controller 类
 
-### 工作流程
+### 工作原理
 
 - 1）用户向服务端发送一次请求，这个请求会先到中央控制器 DispatcherServlet（前端控制器）
 - 2）DispatcherServlet 接收到请求后会调用 HandlerMapping 处理器映射器。由此得知，该请求该由哪个 Controller 来处理（此时并未调用 Controller，只是得知）
