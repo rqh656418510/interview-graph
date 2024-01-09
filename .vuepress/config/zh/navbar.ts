@@ -12,6 +12,13 @@ export const navbar = [
     ]
   },
   {
+    text: 'C/C++',
+    children: [
+      { text: 'C 面试题', link: '/docs/interview/c-cxx/c/chapter-01.md' },
+      { text: 'C++ 面试题', link: '/docs/interview/c-cxx/cxx/chapter-01.md' }
+    ]
+  },
+  {
     text: 'Java ',
     children: [
       { text: '核心面试题', link: '/docs/interview/java/core/chapter-01.md' },

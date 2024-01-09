@@ -15,6 +15,22 @@ export const series = {
       ]
     }
   ],
+  '/docs/interview/c-cxx/c/': [
+    {
+      text: 'C 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/c-cxx/cxx/': [
+    {
+      text: 'C++ 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
   '/docs/interview/java/core/': [
     {
       text: '核心面试题',
