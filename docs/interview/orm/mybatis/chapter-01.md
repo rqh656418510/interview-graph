@@ -1,6 +1,6 @@
 ---
-title: 第 1 部分
-description: 第 1 部分
+title: 第 1 部分面试题
+description: 第 1 部分面试题
 ---
 
 ## MyBatis 四大对象
@@ -30,5 +30,5 @@ MyBatis 的四大对象包括：Executor、StatementHandler、ParameterHandler�
 三种解决方法如下：
 
 - 1) 编写 SQL 语句时使用字段别名
-- 2) 在 MyBatis 的全局配置文件中开启驼峰命名规则
-- 3) 在 Mapper 映射文件中使用 `resultMap` 来自定义映射规则
+- 2) 在 Mapper 映射文件中使用 `resultMap` 来自定义映射规则
+- 3) 在 MyBatis 的全局配置文件中开启驼峰命名规则，将数据库表中的下划线映射为驼峰命名
