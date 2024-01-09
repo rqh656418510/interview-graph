@@ -120,6 +120,13 @@ export const navbar = [
     ]
   },
   {
+    text: 'Linux',
+    children: [
+      { text: 'Linux 核心面试题', link: '/docs/interview/linux/core/' },
+      { text: 'Linux 运维面试题', link: '/docs/interview/linux/operation/' }
+    ]
+  },
+  {
     text: 'GitHub',
     icon: 'GitHub',
     link: 'https://github.com/rqh656418510/interview-graph'

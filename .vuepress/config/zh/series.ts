@@ -247,5 +247,21 @@ export const series = {
         'chapter-01'
       ]
     }
+  ],
+  '/docs/interview/linux/core/': [
+    {
+      text: 'Linux 核心面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/linux/operation': [
+    {
+      text: 'Linux 运维面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
   ]
 }
