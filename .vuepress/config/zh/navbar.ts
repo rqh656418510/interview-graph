@@ -30,7 +30,8 @@ export const navbar = [
   {
     text: '缓存',
     children: [
-      { text: 'Redis 面试题', link: '/docs/interview/cache/redis/chapter-01.md' }
+      { text: 'Redis 面试题', link: '/docs/interview/cache/redis/chapter-01.md' },
+      { text: 'Memcached 面试题', link: '/docs/interview/cache/memcached/chapter-01.md' }
     ]
   },
   {

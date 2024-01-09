@@ -68,6 +68,15 @@ export const series = {
     {
       text: 'Redis 面试题',
       children: [
+        'chapter-01',
+        'chapter-02',
+      ]
+    }
+  ],
+  '/docs/interview/cache/memcached/': [
+    {
+      text: 'Memcached 面试题',
+      children: [
         'chapter-01'
       ]
     }
