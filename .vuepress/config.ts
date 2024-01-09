@@ -11,8 +11,8 @@ export default defineUserConfig({
   debug: false,
   port: 8080,
   head: [
-    ['meta', { name: 'application-name', content: 'Clay 的面试图谱' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的面试图谱' }],
+    ['meta', { name: 'application-name', content: 'Clay 的面试指南' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的面试指南' }],
     ['link', { rel: 'icon', href: 'favicon.ico' }]
   ],
 
@@ -20,8 +20,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Clay 的面试图谱',
-      description: 'Clay 的面试图谱。',
+      title: 'Clay 的面试指南',
+      description: 'Clay 的面试指南。',
     }
   },
 

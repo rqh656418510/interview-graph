@@ -136,6 +136,6 @@ export const navbar = [
   {
     text: 'GitHub',
     icon: 'GitHub',
-    link: 'https://github.com/rqh656418510/interview-graph'
+    link: 'https://github.com/rqh656418510/interview-guide'
   }
 ]
