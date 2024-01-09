@@ -123,6 +123,8 @@ export const navbar = [
   {
     text: '前端',
     children: [
+      { text: 'CSS 面试题', link: '/docs/interview/font-end/css/chapter-01.md' },
+      { text: 'HTML 面试题', link: '/docs/interview/font-end/html/chapter-01.md' },
       { text: 'Vue.js 面试题', link: '/docs/interview/font-end/vue/chapter-01.md' },
       { text: 'JavaScript 面试题', link: '/docs/interview/font-end/javascript/chapter-01.md' }
     ]

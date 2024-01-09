@@ -257,6 +257,22 @@ export const series = {
       ]
     }
   ],
+  '/docs/interview/font-end/css/': [
+    {
+      text: 'CSS 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
+  '/docs/interview/font-end/html/': [
+    {
+      text: 'HTML 面试题',
+      children: [
+        'chapter-01'
+      ]
+    }
+  ],
   '/docs/interview/font-end/vue/': [
     {
       text: 'Vue.js 面试题',
