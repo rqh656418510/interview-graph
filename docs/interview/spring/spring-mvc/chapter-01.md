@@ -12,9 +12,9 @@ description: 第 1 部分
 ### 各大组件
 
 - DispatcherServlet：中央控制器，也称为前端控制器，它是整个请求响应的控制中心，组件的调用由它统一调度
-- HandlerMapping：处理器映射器，它根据用户访问的 URL 映射到对应的后端处理器 Handler。也就是说它知道处理用户请求的后端处理器，但是它并不执行后端处理器，而是将后端处理器告诉给中央处理器
+- HandlerMapping：处理器映射器，它根据用户访问的 URL 映射到对应的后端处理器 Handler。也就是说它知道处理用户请求的后端处理器，但是它并不执行后端处理器，而是将后端处理器告诉给中央控制器
 - HandlerAdapter：处理器适配器，它调用后端处理器中的方法，返回逻辑视图 ModelAndView 对象
-- ViewResolver：视图解析器，将 ModelAndView 逻辑视图解析为具体的视图（如 JSP）
+- ViewResolver：视图解析器，将 ModelAndView 逻辑视图解析为具体的视图（如 JSP 页面）
 - Handler：后端处理器，对用户具体请求进行处理，也就是 Controller 类
 
 ### 工作流程
@@ -22,16 +22,16 @@ description: 第 1 部分
 - 1）用户向服务端发送一次请求，这个请求会先到中央控制器 DispatcherServlet（前端控制器）
 - 2）DispatcherServlet 接收到请求后会调用 HandlerMapping 处理器映射器。由此得知，该请求该由哪个 Controller 来处理（此时并未调用 Controller，只是得知）
 - 3）DispatcherServlet 调用 HandlerAdapter 处理器适配器，告诉处理器适配器应该要去执行哪个 Controller
-- 4）HandlerAdapter 处理器适配器去执行 Controller 并得到 ModelAndView （数据和视图），并层层返回给 DispatcherServlet
+- 4）HandlerAdapter 处理器适配器去执行 Controller 方法并得到 ModelAndView （数据和视图），并层层返回给 DispatcherServlet
 - 5）DispatcherServlet 将 ModelAndView 交给 ViewReslover 视图解析器解析，然后返回真正的视图
 - 6）DispatcherServlet 将模型数据填充到视图中
 - 7）DispatcherServlet 将结果响应给用户
 
-### 处理模型数据的方式
-
-- 处理模型数据的方式一：将 Controller 中方法的返回值设置为 ModelAndView
-- 处理模型数据的方式二：将 Controller 中方法的返回值设置为 String，在方法的入参中传入 Map、Model 或者 ModelMap
+::: tip SpringMVC处理模型数据的两种方式
+- 第一种方式：将 Controller 中方法的返回值设置为 ModelAndView
+- 第二种方式：将 Controller 中方法的返回值设置为 String，在方法的入参中传入 Map、Model 或者 ModelMap
 - 上述的两种方式，最终都会被 Spring MVC 转换为一个 ModelAndView 对象
+:::
 
 ## Spring MVC 中解决请求乱码
 
